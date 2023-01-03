@@ -1,0 +1,214 @@
+.hero {
+  /* Hero / Regular */
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 38px;
+  line-height: 46px;
+  /* Gradient / Red Text */
+  background: linear-gradient(90.13deg, #F0145A 0.84%, #EF8080 99.96%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.gradient-supersoft {
+  background: linear-gradient(228.57deg, #323264 11.93%, #323264 57.17%, #643E72 87.46%);
+}
+
+.h2 {
+  /* H2 / Regular */
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 37px;
+  /* identical to box height */
+  /* Main / Regular */
+  color: #323264;
+}
+
+h3 {
+  /* H3 / Regular */
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 27px;
+  /* identical to box height */
+  /* Main / Regular */
+  color: #323264;
+}
+
+.h3-caps {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 17px;
+  /* identical to box height */
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  /* Main / Regular */
+  color: #323264;
+}
+
+.h4 {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  /* identical to box height */
+  /* Main / Regular */
+  color: #323264;
+}
+
+.paragraph {
+  /* Paragraph/Regular */
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  /* or 162% */
+  /* Black */
+  color: #000000;
+}
+
+.list {
+  /* Accent */
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 26px;
+  /* or 144% */
+  /* Basic/Black */
+  color: #000000;
+}
+
+.link {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  /* identical to box height, or 125% */
+  /* Active / Regular */
+  color: #24A3FF;
+}
+
+.link2 {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  /* identical to box height, or 125% */
+  /* Accent */
+  color: #F0145A;
+}
+
+.wrapper {
+  padding: 0 160px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 50px;
+}
+.header .right-side .top-box {
+  display: flex;
+  gap: 6px;
+  align-items: center;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-size: 16px;
+  line-height: 20px;
+  color: #FFFFFF;
+}
+.header .right-side .languages {
+  display: flex;
+}
+.header .right-side .languages .language {
+  width: 33px;
+  height: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 700;
+  border-radius: 8px;
+  cursor: pointer;
+}
+.header .right-side .languages .language.active, .header .right-side .languages .language:hover {
+  background-color: #F0145A;
+}
+.header .right-side .number-link a {
+  font-weight: 700;
+  color: #FFFFFF;
+  text-decoration: none;
+}
+.header .right-side .dot {
+  width: 6px;
+  height: 6px;
+  background-color: #E6E6F0;
+  border-radius: 50%;
+}
+.header .bottom-box {
+  display: flex;
+  margin-top: 19px;
+  margin-left: 65px;
+}
+.header .bottom-box .bottom-box-list-ul {
+  display: flex;
+  justify-content: space-between;
+  gap: 15px;
+}
+.header .bottom-box .bottom-box-list-ul a {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  color: #FFFFFF;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.home-page-main-wrapper {
+  position: relative;
+  margin-top: -116px;
+  z-index: 0;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 30px;
+}
+.home-page-main-wrapper .main-bg-image {
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  left: 50%;
+  transform: translate(-50%, 0);
+  height: 100%;
+}
+.home-page-main-wrapper .main-title {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  color: #FFFFFF;
+  font-size: 38px;
+  line-height: 46px;
+  text-align: center;
+}/*# sourceMappingURL=index.css.map */

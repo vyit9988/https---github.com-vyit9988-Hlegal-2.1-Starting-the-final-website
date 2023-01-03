@@ -1,0 +1,41 @@
+@import './variables.scss';
+* {
+    box-sizing:border-box;
+}
+
+.home-page-main-wrapper {
+    position: relative;
+    margin-top: -116px;
+    z-index: 0;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 30px;
+    .main-bg-image {
+        position: absolute;
+        z-index: -1;
+        top: 0;
+        left: 50%;
+        transform: translate(-50%, 0);
+        height: 100%;
+    } 
+
+    .main-title {
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: $bold;
+        color: $basic-white;
+        font-size: 38px;
+        line-height: 46px;
+        text-align: center;
+    }
+
+    // .main-go-to-bottom {
+    
+    // }
+}
+
+
+
