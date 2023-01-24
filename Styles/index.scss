@@ -16,10 +16,12 @@
     .main-bg-image {
         position: absolute;
         z-index: -1;
-        top: 0;
+        top: -100%;
         left: 50%;
         transform: translate(-50%, 0);
         height: 100%;
+        animation: show-big-logo 2s ease-out;
+        animation-fill-mode: forwards;
     } 
 
     .main-title {
@@ -35,6 +37,21 @@
     // .main-go-to-bottom {
     
     // }
+
+    @keyframes show-big-logo {
+        0% {
+            top: -100%;
+            opacity: 0;
+        }
+        50% {
+            opacity: 0;
+        }
+        100% {
+            top: 0;
+            opacity: 1;
+        }
+    }
+    
 }
 
 
