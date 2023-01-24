@@ -198,10 +198,14 @@ h3 {
 .home-page-main-wrapper .main-bg-image {
   position: absolute;
   z-index: -1;
-  top: 0;
+  top: -100%;
   left: 50%;
   transform: translate(-50%, 0);
   height: 100%;
+  -webkit-animation: show-big-logo 2s ease-out;
+          animation: show-big-logo 2s ease-out;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
 }
 .home-page-main-wrapper .main-title {
   font-family: "Montserrat";
@@ -211,4 +215,30 @@ h3 {
   font-size: 38px;
   line-height: 46px;
   text-align: center;
+}
+@-webkit-keyframes show-big-logo {
+  0% {
+    top: -100%;
+    opacity: 0;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    top: 0;
+    opacity: 1;
+  }
+}
+@keyframes show-big-logo {
+  0% {
+    top: -100%;
+    opacity: 0;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    top: 0;
+    opacity: 1;
+  }
 }/*# sourceMappingURL=index.css.map */
