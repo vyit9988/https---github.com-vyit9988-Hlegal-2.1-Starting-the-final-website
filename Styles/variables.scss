@@ -166,7 +166,7 @@ color: #F0145A;
 }
 
 .wrapper {
-    padding: 0 160px;
+    padding: 0 100px;
 }
 
 * {
@@ -184,6 +184,7 @@ color: #F0145A;
     display: flex;
     justify-content: space-between;
     padding-top: 50px;
+    z-index: 1;
 .right-side {
     .top-box{
         display: flex;
@@ -249,6 +250,8 @@ color: #F0145A;
     }
     }
 }
+
+
 
 
 
